@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-#'모가디슈'의 네이버 영화  리퓨 링크
+#알바천국  링크
 url = "http://www.alba.co.kr/?NaPm=ct%3Dkrn4uici%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3De8163cc534484eb557a2956fd51c47f791f971b1"
 #html 소스 가져오기
 res = requests.get(url)
